@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  position: fixed;
+  top: 0;
+}
+.logo {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2.5em;
+}
+.logo span {
+  color: #e74c3c;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+
+  font-size: 1.5rem;
+}
+.menu a:first-child {
+  color: #e74c3c;
+}
+.menu a:hover {
+  color: #e74c3c;
+}
+.icon .nav-search {
+  font-size: 1.9rem;
+}
+.icon .nav-search:hover {
+  color: #e74c3c;
+}
+.icon a {
+  text-decoration: none;
+  background: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 30px;
+  border-radius: 19px;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    url("image/book2.jpg");
+}
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f6f6;
+  font-family: "Roboto", sans-serif;
+} */
+.container {
+  width: 600px;
+  border: 10px solid #333;
+  padding: 15px 10px;
+  margin-top: 300px;
+  margin-left: 450px;
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+textarea {
+  height: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  background-color: transparent;
+  margin-bottom: 10px;
+  resize: none;
+  outline: none;
+  transition: 0.5s;
+}
+
+input[type="submit"],
+button {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+input[type="submit"] {
+  color: #fff;
+  background-color: #273c75;
+}
+button {
+  color: #333;
+  background-color: transparent;
+}
+.btn {
+  display: none;
+}

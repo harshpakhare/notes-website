@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("p").dblclick(function() {
+                $(this).show();
+            });
+            $("p").on("click", function() {
+                $(this);
+            });
+            $("p").on({
+                mouseenter: function() {
+                    $(this).css("background-color", "lightgray");
+                },
+                mouseleave: function() {
+                    $(this).css("background-color", "lightblue");
+                },
+                click: function() {
+                    $(this).css("background-color",
+                        "yellow");
+                }
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <p>Click or move the mouse pointer over this pragraph CHINMAY_466</p>
+</body>
+
+</html>

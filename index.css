@@ -1,0 +1,276 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3FBFB;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img {
+    width: 100px;
+}
+
+.blog {
+    /* width: 85%;
+    margin: auto; */
+   /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    opacity: 0;
+}
+
+.item {
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    bottom: -15px;
+    opacity: 0;
+    -webkit-box-shadow: 3px 9px 24px -17px rgba(0, 0, 0, 0.60);
+    -moz-box-shadow: 3px 9px 24px -17px rgba(0, 0, 0, 0.60);
+    box-shadow: 3px 9px 24px -17px rgba(0, 0, 0, 0.60);
+    cursor: pointer;
+    transition: all 0.6s;
+    top: 0;
+}
+
+.item:hover {
+    top: -20px;
+}
+
+.item .image {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.item .image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item .info {
+    width: 380px;
+    padding: 18px;
+    transition: all 0.6s;
+}
+
+.item .info h3 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #584255;
+    line-height: 28px;
+    height: 55px;
+}
+
+.item .info p {
+    font-size: 15px;
+    color: #584255;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 40px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .item .info h3,
+    .item .info p {
+        height: initial;
+    }
+
+}*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+background-color:#F3FBFB;
+     width:100%; height: 100vh;
+     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url("image/pc\ \(1\).webp");
+
+}
+/*nav {
+
+width:1700px;height:60px;
+background-color: black;
+position:sticky;
+top:0;
+
+}
+nav h2{
+ text-align:center;
+ color: white;
+ font-size: 50px;
+
+
+}*/
+
+
+nav{
+	width:100%;
+	height: 80px;
+	background: white;
+	color:black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+	position: fixed;
+	top: 0;
+
+}
+.logo{
+	font-family:'Fira Sans', sans-serif; 
+	font-size:2.5em;
+
+}
+.logo span
+{
+	color: #e74c3c;
+}
+.menu  a{
+	text-decoration: none;
+	color: black;
+	padding:10px 20px ;
+	
+	font-size:1.5rem;
+}
+.menu a:first-child{
+	color: #e74c3c;
+}
+.menu a:hover{
+	color:  #e74c3c;
+}
+.icon .nav-search{
+	font-size: 1.9rem;
+}
+.icon .nav-search:hover{
+	color:#e74c3c;
+}
+.icon a{
+	text-decoration: none;
+	background: #e74c3c;
+	color:white;
+	padding:10px 20px;
+	margin-left: 30px;
+	border-radius: 19px;
+
+
+}
+
+
+
+
+/* nav{
+    width:1500;height:10vh;
+  
+    text-align: center;
+    font-size: 40px;
+    position:sticky;
+    top: 0;
+
+}
+ nav .advait h2{
+    color:white;
+} */
+
+img {
+    width: 100px;
+}
+.blog {
+    /*width: 85%;
+    margin: auto; */
+
+    display: grid;
+    padding: 70px 200px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    opacity: 0;
+}
+.item {
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    bottom: -15px;
+    opacity: 0;
+    -webkit-box-shadow: 3px 9px 24px -17px rgba(0, 0, 0, 0.60);
+    -moz-box-shadow: 3px 9px 24px -17px rgba(0, 0, 0, 0.60);
+    box-shadow: 3px 9px 24px -17px rgba(0, 0, 0, 0.60);
+    cursor: pointer;
+    transition: all 0.6s;
+    top: 0;
+}
+.item:hover {
+    top: -20px;
+}
+
+.item .image {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.item .image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item .info {
+    width: 380px;
+    padding: 18px;
+    transition: all 0.6s;
+}
+
+.item .info h3 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #584255;
+    line-height: 28px;
+    height: 55px;
+}
+
+.item .info p {
+    font-size: 15px;
+    color: #584255;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 40px;
+}
+/*@media screen and (max-width: 1024px) {
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .item .info h3,
+    .item .info p {
+        height: initial;
+    }
+
+}
+*/
